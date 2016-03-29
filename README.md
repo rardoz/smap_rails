@@ -18,6 +18,10 @@ Or install it yourself as:
 
     $ gem install smap_rails
 
+Add it to your Javascript manifest file
+
+    $ //= require promise
+
 ## Usage
 
 Check out the smap js repo [https://github.com/eriwen/smap.js](https://github.com/eriwen/smap.js).
