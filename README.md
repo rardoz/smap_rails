@@ -7,7 +7,7 @@ ES6 Maps with a bunch of convenience methods packaged for the Rails asset pipeli
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'smap_rails'
+gem 'smap'
 ```
 
 And then execute:
