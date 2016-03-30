@@ -1,12 +1,16 @@
 //! Copyright 2012 Eric Wendelin - MIT License
 
 /**
- * es6-map-shim.js is a DESTRUCTIVE shim that follows the latest Map specification as closely as possible.
+ * es6-map-shim.js is a shim that follows the latest Map specification as closely as possible.
  * It is destructive in the sense that it overrides native implementations.
  *
  * This library assumes ES5 functionality: Object.create, Object.defineProperty, Array.indexOf, Function.bind
  */
+
 (function(module) {
+    //no longer distructive
+    if(this.Map){return;}
+
     function Map(iterable) {
         var _items = [];
         var _keys = [];
